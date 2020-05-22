@@ -1,0 +1,204 @@
+/* body{
+    background:url("../assets/memphis-colorful.png") repeat;
+} */
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -2px;
+}
+
+header{
+    background: url("../assets/evening-in-the-boston-public-garden-joann-vitali.webp");
+    background-size: cover;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar{
+    padding-top: 20px;
+    color: white;
+}
+
+.head{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: white;
+    background-color: rgba(24, 24, 33, 0.36);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.head .banner{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 10px;
+    font-weight: bold;
+}
+.head h1{
+    font-size: 50px;
+    color: #66242e;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.head p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.news{
+    background-color: #d798d6;
+}
+
+.news a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.news a:hover{
+   color:#6c648c ;
+}
+
+.venue{
+    text-transform: uppercase;
+}
+
+.venue .row div:first-child{
+    background-color: #6c648c;
+    color: whitesmoke;
+}
+
+.venue .time{
+    font-weight: 700;
+}
+
+.venue a{
+    list-style: none;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #dc9ad9;
+}
+
+.footer{
+    margin-top: 30px;
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+h5{
+    font-weight: 700;
+}
+
+.footer li{
+    margin: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .row:nth-child(2) li{
+    padding-top: 20px;
+    background-color: #18415e;
+    margin-top: 0px;
+    border-radius: 70%;
+}
+.footer li a svg{
+    color: white;
+    width: 15px;
+    margin: 0px 20px 20px;
+}
+.footer li:first-child a svg{
+    width: 10px;
+}
+@media (max-width: 640px){
+    .news{
+        padding: 50px 20px;
+    }
+    .news .card{
+        margin: 10px;
+    }
+    .Schedule,.ticket,.venue{
+        padding: 50px 30px;
+    }
+    .venue .row div:first-child{
+        margin-bottom: 30px;
+    }
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul.ks-cboxtags li{
+  display: inline;
+}
+ul.ks-cboxtags li label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    border: 2px solid #dc9ad9;;
+    background-color: #dc9ad9;;
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+  border: 2px solid #e9a1ff;
+}

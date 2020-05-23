@@ -11,6 +11,12 @@ h1{
     letter-spacing: -2px;
 }
 
+h2{
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -2px;
+}
+
 header{
     background: url("../assets/evening-in-the-boston-public-garden-joann-vitali.webp");
     background-size: cover;
@@ -190,10 +196,6 @@ ul.ks-cboxtags li input[type="checkbox"]:checked + label {
     background-color: #dc9ad9;;
     color: #fff;
     transition: all .2s;
-}
-
-ul.ks-cboxtags li input[type="checkbox"] {
-  display: absolute;
 }
 ul.ks-cboxtags li input[type="checkbox"] {
   position: absolute;
